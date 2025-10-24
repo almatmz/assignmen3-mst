@@ -31,7 +31,7 @@
         ],
         "total_cost": 16,
         "operations_count": 27,
-        "execution_time_ms": 7.51
+        "execution_time_ms": 6.4931
       },
       "kruskal": {
         "mst_edges": [
@@ -58,7 +58,7 @@
         ],
         "total_cost": 16,
         "operations_count": 35,
-        "execution_time_ms": 1.8332
+        "execution_time_ms": 1.5815
       }
     },
     {
@@ -87,7 +87,7 @@
         ],
         "total_cost": 6,
         "operations_count": 19,
-        "execution_time_ms": 0.0545
+        "execution_time_ms": 0.0747
       },
       "kruskal": {
         "mst_edges": [
@@ -109,7 +109,78 @@
         ],
         "total_cost": 6,
         "operations_count": 22,
-        "execution_time_ms": 0.0319
+        "execution_time_ms": 0.0415
+      }
+    },
+    {
+      "graph_id": 3,
+      "input_stats": {
+        "vertices": 6,
+        "edges": 7
+      },
+      "prim": {
+        "mst_edges": [
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 2
+          },
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 1
+          },
+          {
+            "from": "B",
+            "to": "D",
+            "weight": 4
+          },
+          {
+            "from": "C",
+            "to": "E",
+            "weight": 5
+          },
+          {
+            "from": "E",
+            "to": "F",
+            "weight": 7
+          }
+        ],
+        "total_cost": 19,
+        "operations_count": 27,
+        "execution_time_ms": 0.0741
+      },
+      "kruskal": {
+        "mst_edges": [
+          {
+            "from": "B",
+            "to": "C",
+            "weight": 1
+          },
+          {
+            "from": "A",
+            "to": "B",
+            "weight": 2
+          },
+          {
+            "from": "B",
+            "to": "D",
+            "weight": 4
+          },
+          {
+            "from": "C",
+            "to": "E",
+            "weight": 5
+          },
+          {
+            "from": "E",
+            "to": "F",
+            "weight": 7
+          }
+        ],
+        "total_cost": 19,
+        "operations_count": 46,
+        "execution_time_ms": 0.0363
       }
     }
   ]
