@@ -1,0 +1,17 @@
+Dataset,Graph ID,Vertices,Edges,Algorithm,Total Cost,Operations Count,Execution Time (ms)
+small,1,5,7,Prim,16,27,6,4931
+small,1,5,7,Kruskal,16,35,1,5815
+small,2,4,5,Prim,6,19,0,0747
+small,2,4,5,Kruskal,6,22,0,0415
+small,3,6,7,Prim,19,27,0,0741
+small,3,6,7,Kruskal,19,46,0,0363
+medium,1,10,11,Prim,38,42,0,0879
+medium,1,10,11,Kruskal,38,68,0,0445
+medium,2,12,13,Prim,60,49,0,0774
+medium,2,12,13,Kruskal,60,84,0,0575
+medium,3,13,14,Prim,80,55,0,1483
+medium,3,13,14,Kruskal,80,90,0,0550
+large,1,20,22,Prim,90,86,0,1733
+large,1,20,22,Kruskal,90,164,0,0927
+large,2,26,28,Prim,113,112,0,1616
+large,2,26,28,Kruskal,113,223,0,1029

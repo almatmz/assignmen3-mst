@@ -21,5 +21,10 @@ public class JsonIO {
         }
         return graphs;
     }
+    public static JsonObject readJson(String filePath) throws IOException {
+        try (Reader reader = new FileReader(filePath)) {
+            return JsonParser.parseReader(reader).getAsJsonObject();
+        }
+    }
 }
 

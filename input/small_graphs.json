@@ -20,8 +20,21 @@
         {"from": "A", "to": "B", "weight": 1},
         {"from": "A", "to": "C", "weight": 4},
         {"from": "B", "to": "C", "weight": 2},
-        {"from": "C", "to": "D", "weight": 3},
-        {"from": "B", "to": "D", "weight": 5}
+        {"from": "B", "to": "D", "weight": 5},
+        {"from": "C", "to": "D", "weight": 3}
+      ]
+    },
+    {
+      "id": 3,
+      "nodes": ["A", "B", "C", "D", "E", "F"],
+      "edges": [
+        {"from": "A", "to": "B", "weight": 2},
+        {"from": "A", "to": "C", "weight": 3},
+        {"from": "B", "to": "C", "weight": 1},
+        {"from": "B", "to": "D", "weight": 4},
+        {"from": "C", "to": "E", "weight": 5},
+        {"from": "D", "to": "E", "weight": 6},
+        {"from": "E", "to": "F", "weight": 7}
       ]
     }
   ]
