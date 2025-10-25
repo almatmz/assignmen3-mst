@@ -22,7 +22,6 @@ Assignment3-MST/
 
 ├── pom.xml
 ├── README.md
-├── REPORT.pdf
 ├── .gitignore
 │
 ├── input/
@@ -38,7 +37,7 @@ Assignment3-MST/
 │   └── summary.csv
 │
 ├── docs/
-│   ├── graph\_visuals.png
+│   ├── REPORT.pdf
 │   └── diagrams/
 │       └── 
 │
