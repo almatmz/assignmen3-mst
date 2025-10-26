@@ -46,7 +46,7 @@ public class PrimMST {
         }
 
         long totalCost = mstEdges.stream().mapToLong(e -> e.weight).sum();
-        double timeMs = (System.nanoTime() - start) / 1_000_000.0;
+        double timeMs = (System.nanoTime() - start) / 1000000.0;
         return new MSTResult(mstEdges, totalCost, c.total(), timeMs);
     }
 }

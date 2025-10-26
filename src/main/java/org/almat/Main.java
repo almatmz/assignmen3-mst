@@ -59,7 +59,7 @@ public class Main {
         }
 
         generateSummaryCSV();
-        System.out.println("🎯 All datasets processed and summary created successfully!");
+        System.out.println(" All datasets processed and summary created successfully!");
     }
 
     private static JsonObject makeResult(MSTResult r) {
@@ -119,7 +119,7 @@ public class Main {
             }
         }
 
-        System.out.println("📊 Summary written to " + OUTPUT_DIR + "summary.csv");
+        System.out.println(" Summary written to " + OUTPUT_DIR + "summary.csv");
     }
 
     private static String capitalize(String s) {
